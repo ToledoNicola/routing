@@ -1,0 +1,7 @@
+<app-star
+  [active]="star.active"
+  (click)="selectedStar(i)"
+  (mouseenter)="mouseSopra(i)"
+  (mouseleave)="mouseFuori()"
+  *ngFor="let star of stars; let i = index"
+></app-star>
